@@ -1,0 +1,346 @@
+body,html {
+    background-color:#ff7400;
+    margin:5px;
+    height: 100%;
+}
+
+.link:hover{
+    color:#ff1e00;
+}
+
+.link{
+    font-size: 42px;
+    font-family: 'Roboto', sans-serif;
+    color:#ff4d00;
+    top: 20px;
+    text-decoration: none;
+}
+
+div.background{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.description{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+}
+
+#Naruto1{
+    background-image: url("Photos/Naruto2.jpg");
+}
+
+#Naruto2{
+    background-image: url("Photos/Naruto5.jpg");
+}
+
+#Naruto3{
+    background-image: url("Photos/Naruto7.jpg");
+}
+
+#aboutMe{
+    font-size: 45px;
+}
+
+@media (min-width: 1840px){
+    #description-title{
+        top: 25%;
+        left: 35%;
+        font-size: 125px;
+    }
+
+    #learnMore{
+        text-decoration: none;
+        border-radius: 10px;
+        background-color: #ff4d00 ;
+        padding: 6px;
+        font-size: 35px;
+        color: black;
+        top: 49%;
+        left: 45%;
+    }
+    
+    #learnMore:hover{
+        padding: 8px;
+        top: 48.9%;
+        left: 44.9%;
+        background-color: #ff1e00;
+    }
+
+    #title{
+        position: absolute;
+        font-size: 50px;
+        left: 4.3%;  
+        top: 1.5%;
+    }
+    
+    #games{
+        position: absolute;
+        left: 60%;
+    }
+    
+    #projects{
+        position: absolute;
+        left: 73%;
+    }
+    
+    #contact{
+        position: absolute;
+        left: 85%;
+    }
+       
+}
+
+@media (max-width: 1840px) and (min-width: 1457px){
+    #description-title{
+        top: 27%;
+        left: 36%;
+        font-size: 110px;
+    }
+
+    #learnMore{
+        text-decoration: none;
+        border-radius: 10px;
+        background-color: #ff4d00 ;
+        padding: 6px;
+        font-size: 35px;
+        color: black;
+        top: 47%;
+        left: 45%;
+    }
+    
+    #learnMore:hover{
+        padding: 8px;
+        top: 46.9%;
+        left: 44.9%;
+        background-color: #ff1e00;
+    }
+
+    #title{
+        position: absolute;
+        font-size: 50px;
+        left: 4.3%;  
+        top: 1.5%;
+    }
+    
+    #games{
+        position: absolute;
+        left: 60%;
+    }
+    
+    #projects{
+        position: absolute;
+        left: 73%;
+    }
+    
+    #contact{
+        position: absolute;
+        left: 85%;
+    }
+}
+
+@media (max-width: 1457px) and (min-width: 952px){
+    #description-title{
+        top: 27%;
+        left: 36%;
+        font-size: 105px;
+    }
+
+    #learnMore{
+        text-decoration: none;
+        border-radius: 10px;
+        background-color: #ff4d00 ;
+        padding: 6px;
+        font-size: 33px;
+        color: black;
+        top: 47%;
+        left: 46%;
+    }
+    
+    #learnMore:hover{
+        padding: 8px;
+        top: 46.9%;
+        left: 45.9%;
+        background-color: #ff1e00;
+    }
+
+    #title{
+        position: absolute;
+        font-size: 50px;
+        left: 4.3%;  
+        top: 1.5%;
+    }
+    
+    #games{
+        position: absolute;
+        font-size: 40px;
+        left: 59%;
+    }
+    
+    #projects{
+        position: absolute;
+        font-size: 40px;
+        left: 71%;
+    }
+    
+    #contact{
+        position: absolute;
+        font-size: 40px;
+        left: 84%;
+    }
+}
+
+@media (max-width: 1305px) and (min-width: 884px){
+    #description-title{
+        top: 30%;
+        left: 28%;
+        font-size: 100px;
+    }
+
+    #learnMore{
+        text-decoration: none;
+        border-radius: 10px;
+        background-color: #ff4d00 ;
+        padding: 6px;
+        font-size: 35px;
+        color: black;
+        top: 49%;
+        left: 42%;
+    }
+    
+    #learnMore:hover{
+        padding: 8px;
+        top: 48.9%;
+        left: 41.9%;
+        background-color: #ff1e00;
+    }
+    
+    #title{
+        position: absolute;
+        font-size: 45px;
+        left: 4.3%;  
+        top: 1.5%;
+    }
+    
+    #games{
+        position: absolute;
+        left: 40%;
+    }
+    
+    #projects{
+        position: absolute;
+        left: 56%;
+    }
+    
+    #contact{
+        position: absolute;
+        left: 75%;
+    }
+    
+}
+
+@media (max-width:884px) and (min-width:617px){
+    #description-title{
+        top: 30%;
+        left: 32%;
+        font-size: 70px;
+    }
+
+    #learnMore{
+        text-decoration: none;
+        border-radius: 10px;
+        background-color: #ff4d00 ;
+        padding: 6px;
+        font-size: 18px;
+        color: black;
+        top: 42%;
+        left: 44%;
+    }
+    
+    #learnMore:hover{
+        padding: 8px;
+        top: 41.9%;
+        left: 43.9%;
+        background-color: #ff1e00;
+    }
+    
+    #title{
+        position: absolute;
+        font-size: 40px;
+        left: 4.3%;  
+        top: 1.5%;
+    }
+    
+    #games{
+        position: absolute;
+        left: 40%;
+        font-size: 30px;
+    }
+    
+    #projects{
+        position: absolute;
+        left: 56%;
+        font-size: 30px;
+    }
+    
+    #contact{
+        position: absolute;
+        left: 75%;
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width:617px){
+    #description-title{
+        top: 30%;
+        left: 28%;
+        font-size: 50px;
+    }
+
+    #learnMore{
+        text-decoration: none;
+        border-radius: 10px;
+        background-color: #ff4d00 ;
+        padding: 6px;
+        font-size: 18px;
+        color: black;
+        top: 40%;
+        left: 40%;
+    }
+    
+    #learnMore:hover{
+        padding: 8px;
+        top: 39.9%;
+        left: 39.9%;
+        background-color: #ff1e00;
+    }
+    
+    #title{
+        position: absolute;
+        font-size: 35px;
+        left: 4.3%;  
+        top: 1.5%;
+    }
+    
+    #games{
+        position: absolute;
+        left: 40%;
+        font-size: 20px;
+    }
+    
+    #projects{
+        position: absolute;
+        left: 56%;
+        font-size: 20px;
+    }
+    
+    #contact{
+        position: absolute;
+        left: 75%;
+        font-size: 20px;
+    }
+  
+}
